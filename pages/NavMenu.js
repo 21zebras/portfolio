@@ -9,7 +9,7 @@ export default function NavMenu()
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/about">About</Link>
+              <Link href="/webportfolio">Portfolio</Link>
             </li>
             <li>
               <Link href="/users">Users</Link>

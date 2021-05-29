@@ -1,14 +1,11 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import NavMenu from "./NavMenu.js";
-import WebDev from "./WebDev.js";
+import Link from 'next/link'
 
 export default function Home(props)
 {
   return (
-    <div className="PageWrapper">
-      <NavMenu />
-      <WebDev />
+    <div className="ComingSoon">
+      <h2 className="CsHeader">Portfolio Coming Soon...</h2>
+      <Link href="mailto:rmccraw51@gmail.com">Contact Robert</Link>
     </div>
   )
 }

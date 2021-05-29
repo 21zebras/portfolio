@@ -1,0 +1,12 @@
+.ComingSoon {
+    min-height: 100vh;
+    color: white;
+    background-color: #232323;
+    text-align: center;
+    display: block;
+    padding-top: 20%;
+}
+
+.CsHeader {
+    padding-bottom: 1%;
+}
