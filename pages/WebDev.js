@@ -7,7 +7,7 @@ export default function WebDev(props)
 {
     var items = [
         {
-            name: <Image  className="webPortfolio" src="/images/lobiboxLong.png" layout="responsive" width={1920} height={5000} alt="LobiBox" />,
+            name: <Image  className="webPortfolio" src="/images/lobiboxLong.png" layout="responsive" object-fit="cover" width={1920} height={5000} alt="LobiBox" />,
             subtitle: <span className="LobiBox">LobiBox</span>,
             description: "A complete lead generation and product documentation/support website, developed on Wordpress and hosted on AWS. Global elements have been templated, and the original design is 100% responsive. All of the graphics and mockups on the website were designed by me as well, with exception to the physical product images not placed on a rendered mockup."
         },
