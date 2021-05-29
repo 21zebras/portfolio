@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h2 {
+  font-size: 2rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import styles from '../styles/Carousel.css';
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
