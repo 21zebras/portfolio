@@ -1,4 +1,15 @@
+.NavMenu {
+    color: white;
+    display: flexbox;
+    flex-direction: row;
+    padding-top: 2%;
+    padding-left: 7%;
+}
 
+.NavLink {
+    padding-right: 3%;
+    text-transform: uppercase;
+}
 
 .Carousel-root-1 {
     width: 100%;
@@ -14,6 +25,7 @@
 .webPortfolio {
     width: 100%;
     object-fit: cover !important;
+    object-position: center top;
 }
 
 .MainContainer {

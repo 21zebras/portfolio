@@ -4,17 +4,9 @@ export default function NavMenu()
 {
   return (
     <nav className="NavMenu">
-          <ul>
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/webportfolio">Portfolio</Link>
-            </li>
-            <li>
-              <Link href="/users">Users</Link>
-            </li>
-          </ul>
+              <span className="NavLink"><Link href="/">Home</Link></span>
+              <span className="NavLink"><Link href="/webportfolio">Portfolio</Link></span>
+              <span className="NavLink"><Link href="/users">Users</Link></span>
           </nav>
   )
 }
