@@ -12,27 +12,27 @@ export default function WebDev(props)
             description: "A complete lead generation and product documentation/support website, developed on Wordpress and hosted on AWS. Global elements have been templated, and the original design is 100% responsive. All of the graphics and mockups on the website were designed by me as well, with exception to the physical product images not placed on a rendered mockup."
         },
         {
-          name: <Image className="webPortfolio" src="/images/ruekotreats.png" layout="responsive" object-fit="cover" width={1920} height={5000} alt="RuekoTreats" />,
+          name: <Image className="webPortfolio" src="/images/ruekotreats.png" width={1920} height={5000} alt="RuekoTreats" />,
           subtitle: <span className="RuekoTreats">Rueko Treats</span>,
           description: "A complete lead generation and product documentation/support website, developed on Wordpress and hosted on AWS. Global elements have been templated, and the original design is 100% responsive. All of the graphics and mockups on the website were designed by me as well, with exception to the physical product images not placed on a rendered mockup."
         },
         {
-          name: <Image className="webPortfolio" src="/images/tmjlawncare.png" layout="responsive" object-fit="cover" width={1920} height={5000} alt="TMJ Lawn Care" />,
+          name: <Image className="webPortfolio" src="/images/tmjlawncare.png" width={1920} height={5000} alt="TMJ Lawn Care" />,
           subtitle: <span className="TMJ">TMJ Lawn Care</span>,
           description: "A complete lead generation and product documentation/support website, developed on Wordpress and hosted on AWS. Global elements have been templated, and the original design is 100% responsive. All of the graphics and mockups on the website were designed by me as well, with exception to the physical product images not placed on a rendered mockup."
         },
         {
-          name: <Image className="webPortfolio" src="/images/jetaction.png" layout="responsive" object-fit="cover" width={1920} height={5000} alt="JetAction" />,
+          name: <Image className="webPortfolio" src="/images/jetaction.png" width={1920} height={5000} alt="JetAction" />,
           subtitle: <span className="JetAction">Jet Action Rentals</span>,
           description: "A complete lead generation and product documentation/support website, developed on Wordpress and hosted on AWS. Global elements have been templated, and the original design is 100% responsive. All of the graphics and mockups on the website were designed by me as well, with exception to the physical product images not placed on a rendered mockup."
         },
         {
-          name: <Image className="webPortfolio" src="/images/sfs.png" layout="responsive" object-fit="cover" width={1920} height={5000} alt="SFS" />,
+          name: <Image className="webPortfolio" src="/images/sfs.png" width={1920} height={5000} alt="SFS" />,
           subtitle: <span className="SFS">Strategies For Success AZ</span>,
           description: "A complete lead generation and product documentation/support website, developed on Wordpress and hosted on AWS. Global elements have been templated, and the original design is 100% responsive. All of the graphics and mockups on the website were designed by me as well, with exception to the physical product images not placed on a rendered mockup."
         },
         {
-          name: <Image className="webPortfolio" src="/images/datenightfoodreviews.png" layout="responsive" object-fit="cover" width={1920} height={5000} alt="Date Night Food Reviews" />,
+          name: <Image className="webPortfolio" src="/images/datenightfoodreviews.png" width={1920} height={5000} alt="Date Night Food Reviews" />,
           subtitle: <span className="DateNightFoorReviews">Date Night Food Reviews</span>,
           description: "A complete lead generation and product documentation/support website, developed on Wordpress and hosted on AWS. Global elements have been templated, and the original design is 100% responsive. All of the graphics and mockups on the website were designed by me as well, with exception to the physical product images not placed on a rendered mockup."
         },
