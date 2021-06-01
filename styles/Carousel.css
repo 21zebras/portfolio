@@ -24,12 +24,6 @@
     width: 100%;
 }
 
-.webPortfolio {
-    width: 100%;
-    object-fit: cover !important;
-    object-position: center top;
-}
-
 .MainContainer {
     display: flex;
     flex-direction: row;
@@ -37,26 +31,22 @@
     height: 100vh;
     background-color: #0098c7;
     background-image: url('/images/phxback.jpg');
-    padding: 0 5%;
+    padding: 0 5% 0 12%;
 }
 
 .ProjectInfo {
     width: 45%;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10%;
+    padding-top: 2.5%;
 }
 
 .ProjectImage {
     width: 45%;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
-}
-
-.LobiBox {
-    color: #0098c7;
+    padding-top: 2.5%;
+    height: 88.5vh;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: top;
 }
 
 .CheckButton {
@@ -80,9 +70,26 @@
     margin-top: -1.2%;
 }
 
+/* Mobile CSS */
+@media only screen and (max-width: 768px) {
+    .ProjectInfo {
+        width: 90%;
+        text-align: center;
+        padding-top: 2.5%;
+    }
+    .MuiPaper-elevation1 {
+        padding: 25px 15px 25px 15px !important;
+        height: fit-content !important;
+    }
+    .MuiButton-label {
+        font-size: 0.7rem !important;
+    }
+}
+
 /* Bootstap CSS Overrides */
 .MuiPaper-elevation1 {
-    padding: 5%;
+    padding: 22.9% 15%;
+    height: 84vh;
 }
 
 .MuiButtonBase-root:hover {
@@ -97,13 +104,13 @@
 }
 
 .Carousel-prev-12 {
-    left: 10% !important;
+    left: 13.5% !important;
     top: 86% !important;
     z-index: 98;
 }
 
 .Carousel-next-11 {
-    right: 55% !important;
+    right: 52.5% !important;
     top: 86% !important;
     z-index: 99;
 }
@@ -114,13 +121,17 @@
     margin-top: -5% !important;
     text-align: left !important;
     bottom: 9% !important;
-    left: 24.2% !important;
+    left: 27.8% !important;
 }
 
 .Carousel-indicator-3 {
-    color: white !important;
+    color: #cdcdcd !important;
 }
 
 .Carousel-active-5 {
     color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.MuiPaper-rounded {
+    border-radius: 0px !important;
 }
