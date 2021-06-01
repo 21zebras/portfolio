@@ -1,5 +1,6 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
 import '../styles/Carousel.css';
+import '../styles/Main.css';
 import '../styles/hometemp.css'
 
 function MyApp({ Component, pageProps }) {
