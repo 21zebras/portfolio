@@ -1,6 +1,9 @@
 import Link from 'next/link'
 import Head from 'next/head'
 import Image from 'next/image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 export default function Websites(props)
 {
@@ -13,13 +16,22 @@ export default function Websites(props)
         </Head>
         <div className="Nav">
           <Image src="/images/me-circle-is-st.png" width={512} height={512}/>
-          <h3>Robert McCraw</h3>
-          <h5>robert@mccraw.net</h5>
-          <h5>Websites</h5>
-          <h5>Ad Designs</h5>
-          <h5>Skills</h5>
-          <h5>Contact</h5>
-          <h5>Social</h5>
+          <h2>Robert McCraw</h2>
+          <h5>Phoenix, AZ</h5>
+          <div className="NavLinks">
+            <h5>Websites</h5>
+          </div>
+          <div className="NavLinks">
+            <h5>Ad Designs</h5>
+          </div>
+          <div className="NavLinks">
+            <h5>Skills</h5>
+          </div>
+          <div className="NavLinks">
+            <h5>Contact</h5>
+          </div>
+          <a href="mailto:rmccraw51@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+          <a href="mailto:rmccraw51@gmail.com"><FontAwesomeIcon icon={faLinkedin} /></a>
         </div>
         <div className="Content">
           <div className="PageTitle"><h3>Recent Websites</h3></div>
