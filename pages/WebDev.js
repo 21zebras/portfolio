@@ -8,33 +8,28 @@ export default function WebDev(props)
     var items = [
         {
             name: <Image  className="webPortfolio" src="/images/lobiboxfull.jpg" layout="responsive" width={1920} height={5000} alt="LobiBox" />,
-            subtitle: <span className="LobiBox">LobiBox</span>,
-            description: "A complete lead generation and product documentation/support website, developed on Wordpress and hosted on AWS. Global elements have been templated, and the original design is 100% responsive. All of the graphics and mockups on the website were designed by me as well, with exception to the physical product images not placed on a rendered mockup."
+            subtitle: <span>LobiBox</span>,
+            description: "LobiBox is a complete lead generation and product documentation/support website, developed on Wordpress and hosted on AWS. Global elements have been templated, and the original design is 100% responsive. The graphics and mockups on the website were designed by me as well, with exception to the physical product images not placed on a rendered mockup."
         },
         {
-          name: <Image className="webPortfolio" src="/images/ruekotreats.png" width={1920} height={5000} alt="RuekoTreats" />,
+          name: <Image className="webPortfolio" src="/images/ruekotreats.jpg" width={1920} height={5000} alt="RuekoTreats" />,
           subtitle: <span className="RuekoTreats">Rueko Treats</span>,
-          description: "A complete lead generation and product documentation/support website, developed on Wordpress and hosted on AWS. Global elements have been templated, and the original design is 100% responsive. All of the graphics and mockups on the website were designed by me as well, with exception to the physical product images not placed on a rendered mockup."
+          description: "RuekoTreats.com is a full service eCommerce website built on Wordpress with WooCommerce. Instant click-to-purchase integration has been enabled via the stripe API, and custom graphics were designed from basic product images."
         },
         {
-          name: <Image className="webPortfolio" src="/images/tmjlawncare.png" width={1920} height={5000} alt="TMJ Lawn Care" />,
+          name: <Image className="webPortfolio" src="/images/tmjlawncare.jpg" width={1920} height={5000} alt="TMJ Lawn Care" />,
           subtitle: <span className="TMJ">TMJ Lawn Care</span>,
-          description: "A complete lead generation and product documentation/support website, developed on Wordpress and hosted on AWS. Global elements have been templated, and the original design is 100% responsive. All of the graphics and mockups on the website were designed by me as well, with exception to the physical product images not placed on a rendered mockup."
+          description: "TMJ Lawn care is a basic website designed and developed for a local business that needed to begin generating and converting leads online."
         },
         {
-          name: <Image className="webPortfolio" src="/images/jetaction.png" width={1920} height={5000} alt="JetAction" />,
+          name: <Image className="webPortfolio" src="/images/jetaction.jpg" width={1920} height={5000} alt="JetAction" />,
           subtitle: <span className="JetAction">Jet Action Rentals</span>,
-          description: "A complete lead generation and product documentation/support website, developed on Wordpress and hosted on AWS. Global elements have been templated, and the original design is 100% responsive. All of the graphics and mockups on the website were designed by me as well, with exception to the physical product images not placed on a rendered mockup."
+          description: "Jet Action Rentals is a full-service rental and informational website for a local Jet Ski rental business. A lead-capture form and advanced analytics were installed for re-marketing to existing customers via email campaigns."
         },
         {
-          name: <Image className="webPortfolio" src="/images/sfs.png" width={1920} height={5000} alt="SFS" />,
+          name: <Image className="webPortfolio" src="/images/sfs.jpg" width={1920} height={5000} alt="SFS" />,
           subtitle: <span className="SFS">Strategies For Success AZ</span>,
-          description: "A complete lead generation and product documentation/support website, developed on Wordpress and hosted on AWS. Global elements have been templated, and the original design is 100% responsive. All of the graphics and mockups on the website were designed by me as well, with exception to the physical product images not placed on a rendered mockup."
-        },
-        {
-          name: <Image className="webPortfolio" src="/images/datenightfoodreviews.png" width={1920} height={5000} alt="Date Night Food Reviews" />,
-          subtitle: <span className="DateNightFoorReviews">Date Night Food Reviews</span>,
-          description: "A complete lead generation and product documentation/support website, developed on Wordpress and hosted on AWS. Global elements have been templated, and the original design is 100% responsive. All of the graphics and mockups on the website were designed by me as well, with exception to the physical product images not placed on a rendered mockup."
+          description: "Strategies for Success is a HIPAA compliant form-capture and informational website utilized by a statewide network of clinics."
         },
     ]
 

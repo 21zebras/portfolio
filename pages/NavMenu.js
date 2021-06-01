@@ -7,6 +7,7 @@ export default function NavMenu()
               <span className="NavLink"><Link href="/">Home</Link></span>
               <span className="NavLink"><Link href="/webportfolio">Portfolio</Link></span>
               <span className="NavLink"><Link href="/users">Users</Link></span>
+              <span className="NavLink"><Link href="/contact">Contact</Link></span>
           </nav>
   )
 }

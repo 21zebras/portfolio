@@ -9,6 +9,8 @@
 .NavLink {
     padding-right: 3%;
     text-transform: uppercase;
+    font-family: Raleway;
+    font-weight: 300;
 }
 
 .Carousel-root-1 {
